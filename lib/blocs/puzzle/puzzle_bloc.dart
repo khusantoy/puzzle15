@@ -39,7 +39,7 @@ class PuzzleBloc extends Bloc<PuzzleEvent, PuzzleState> {
 
   List<int> _generatePuzzle() {
     List<int> board = List<int>.generate(16, (index) => index);
-    board.shuffle(Random());
+    board.shuffle();
     return board;
   }
 
