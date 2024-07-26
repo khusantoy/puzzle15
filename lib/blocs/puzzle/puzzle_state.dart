@@ -1,6 +1,6 @@
 part of 'puzzle_bloc.dart';
 
-abstract class PuzzleState extends Equatable {
+sealed class PuzzleState extends Equatable {
   const PuzzleState();
 
   @override

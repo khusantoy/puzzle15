@@ -23,7 +23,7 @@ class PuzzleScreen extends StatelessWidget {
               children: [
                 _buildPuzzleBoard(context, board),
                 const Padding(
-                  padding:  EdgeInsets.all(16.0),
+                  padding: EdgeInsets.all(16.0),
                   child: Text(
                     'Puzzle Completed!',
                     style: TextStyle(
